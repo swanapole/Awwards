@@ -31,3 +31,13 @@ class technologiesTestClass(TestCase):
 
     def tearDown(self):
         technologies.objects.all().delete()
+
+    def test_save_method(self):
+        self.Python.save_technology()
+        technology = technologies.objects.all()
+        self.assertTrue(len(technology)>0)
+
+    def test_delete_method(self):
+        self.Python.delete_technology('Python')
+        technology = technologies.objects.all()
+        self.assertTrue(len(technology)==0)
