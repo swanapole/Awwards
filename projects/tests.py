@@ -12,3 +12,12 @@ class categoriesTestClass(TestCase):
 
     def tearDown(self):
         categories.objects.all().delete()
+     def test_save_method(self):
+        self.Art.save_category()
+        category = categories.objects.all()
+        self.assertTrue(len(category)>0)
+
+    def test_delete_method(self):
+        self.Art.delete_category('Art')
+        category = categories.objects.all()
+        self.assertTrue(len(category)==0)
