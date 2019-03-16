@@ -12,3 +12,5 @@ Live site can be accessed from the following link
 Pre-configured Admin details are: Password:
 
 ## Known bugs
+
+Not identified any but the user is welcome to view and identify if any.
