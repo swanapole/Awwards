@@ -44,3 +44,17 @@ User session should end when logout url is chosen
 -HTML/CSS
 
 -Bootstrap
+
+## Prerequisites
+
+You need the following to work on the project:
+
+-Python version 3.6
+
+-Django 1.11.
+
+-Pip
+
+-virtualenv
+
+-A text Editor
