@@ -21,17 +21,23 @@ The program should return all projects on the directories page
 **input:** Url is changed to directory page
 **output:** All projects are displayed
 
+
 Program should show the project with the highest number of votes on the caraousel on the home page
 **input:** Home page is accessed
 **output:** Project with highest votes is displayed.
+
 
 Admin site should be displayed when "admin/" url is chosen
 **input:** User enters admin url in browser
 **output:** Admin Login is displayed
 
+
+
 User authentication occurs when Admin tries to Login
 **input:** User tries to login
 **output:** User details are authenticated to confirm if user is an admin
+
+
 
 User session should end when logout url is chosen
 **input:** User chooses logout option
