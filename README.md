@@ -9,4 +9,6 @@ This web-app allows a user to create a Profile,Category,Country,Technology,Color
 ## Setup Requirements
 
 Live site can be accessed from the following link
-Pre-configured Admin details are: Password: 
+Pre-configured Admin details are: Password:
+
+## Known bugs
