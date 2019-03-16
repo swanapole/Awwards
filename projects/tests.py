@@ -21,3 +21,13 @@ class categoriesTestClass(TestCase):
         self.Art.delete_category('Art')
         category = categories.objects.all()
         self.assertTrue(len(category)==0)
+
+class technologiesTestClass(TestCase):
+    def setUp(self):
+        self.Python = technologies(technologies='Python')
+
+    def test_instance(self):
+        self.assertTrue(isinstance(self.Python,technologies))
+
+    def tearDown(self):
+        technologies.objects.all().delete()
