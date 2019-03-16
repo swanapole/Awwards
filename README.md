@@ -38,3 +38,9 @@ User session should end when logout url is chosen
 **output:** User session is ended
 
 ## Technologies used
+
+-Django
+
+-HTML/CSS
+
+-Bootstrap
