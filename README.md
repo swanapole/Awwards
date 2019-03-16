@@ -14,3 +14,5 @@ Pre-configured Admin details are: Password:
 ## Known bugs
 
 Not identified any but the user is welcome to view and identify if any.
+
+## Behavior Driven Development
