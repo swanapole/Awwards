@@ -68,3 +68,6 @@ class countriesTestClass(TestCase):
         self.Kenya.delete_country('Kenya')
         country = countries.objects.all()
         self.assertTrue(len(country)==0)
+class colorsTestClass(TestCase):
+    def setUp(self):
+        self.Black = colors(colors='Black')
