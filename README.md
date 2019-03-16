@@ -32,3 +32,7 @@ Admin site should be displayed when "admin/" url is chosen
 User authentication occurs when Admin tries to Login
 **input:** User tries to login
 **output:** User details are authenticated to confirm if user is an admin
+
+User session should end when logout url is chosen
+**input:** User chooses logout option
+**output:** User session is ended
