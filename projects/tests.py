@@ -58,3 +58,13 @@ class countriesTestClass(TestCase):
         self.Kenya.save_country()
         country = countries.objects.all()
         self.assertTrue(len(country)>0)
+
+    def test_save_method(self):
+        self.Kenya.save_country()
+        country = countries.objects.all()
+        self.assertTrue(len(country)>0)
+
+    def test_delete_method(self):
+        self.Kenya.delete_country('Kenya')
+        country = countries.objects.all()
+        self.assertTrue(len(country)==0)
