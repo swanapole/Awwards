@@ -71,3 +71,9 @@ class countriesTestClass(TestCase):
 class colorsTestClass(TestCase):
     def setUp(self):
         self.Black = colors(colors='Black')
+
+    def test_instance(self):
+        self.assertTrue(isinstance(self.Black,colors))
+
+    def tearDown(self):
+        colors.objects.all().delete()
