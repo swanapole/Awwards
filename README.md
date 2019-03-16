@@ -28,3 +28,7 @@ Program should show the project with the highest number of votes on the caraouse
 Admin site should be displayed when "admin/" url is chosen
 **input:** User enters admin url in browser
 **output:** Admin Login is displayed
+
+User authentication occurs when Admin tries to Login
+**input:** User tries to login
+**output:** User details are authenticated to confirm if user is an admin
