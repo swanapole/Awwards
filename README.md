@@ -63,3 +63,7 @@ You need the following to work on the project:
 
 
 ## Licence
+
+MIT License
+
+Copyright (c) 2019 Shilla Swanapole
