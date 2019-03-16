@@ -16,3 +16,7 @@ Pre-configured Admin details are: Password:
 Not identified any but the user is welcome to view and identify if any.
 
 ## Behavior Driven Development
+
+The program should return all projects on the directories page
+**input:** Url is changed to directory page
+**output:** All projects are displayed
