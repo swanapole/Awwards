@@ -44,3 +44,9 @@ class technologiesTestClass(TestCase):
 class countriesTestClass(TestCase):
     def setUp(self):
         self.Kenya = countries(countries='Kenya')
+
+    def test_instance(self):
+        self.assertTrue(isinstance(self.Kenya,countries))
+
+    def test_instance(self):
+        self.assertTrue(isinstance(self.Kenya,countries))
