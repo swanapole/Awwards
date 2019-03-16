@@ -41,3 +41,6 @@ class technologiesTestClass(TestCase):
         self.Python.delete_technology('Python')
         technology = technologies.objects.all()
         self.assertTrue(len(technology)==0)
+class countriesTestClass(TestCase):
+    def setUp(self):
+        self.Kenya = countries(countries='Kenya')
