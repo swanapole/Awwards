@@ -77,3 +77,13 @@ class colorsTestClass(TestCase):
 
     def tearDown(self):
         colors.objects.all().delete()
+
+    def test_save_method(self):
+        self.Black.save_color()
+        color = colors.objects.all()
+        self.assertTrue(len(color)>0)
+
+    def test_delete_method(self):
+        self.Black.delete_color('Black')
+        color = colors.objects.all()
+        self.assertTrue(len(color)==0)
