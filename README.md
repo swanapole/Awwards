@@ -24,3 +24,7 @@ The program should return all projects on the directories page
 Program should show the project with the highest number of votes on the caraousel on the home page
 **input:** Home page is accessed
 **output:** Project with highest votes is displayed.
+
+Admin site should be displayed when "admin/" url is chosen
+**input:** User enters admin url in browser
+**output:** Admin Login is displayed
