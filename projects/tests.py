@@ -1,3 +1,4 @@
 from django.test import TestCase
-
-# Create your tests here.
+from .models import categories,technologies,colors,countries
+from django.contrib.auth.models import User
+import datetime as dt
