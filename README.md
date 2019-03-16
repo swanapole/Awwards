@@ -36,3 +36,5 @@ User authentication occurs when Admin tries to Login
 User session should end when logout url is chosen
 **input:** User chooses logout option
 **output:** User session is ended
+
+## Technologies used
